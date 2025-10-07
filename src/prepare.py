@@ -1,5 +1,5 @@
 # src/prepare.py
-from data_utils import load_labels, verify_images_exist, stratified_split, save_split_csv
+from src.data_utils import load_labels, verify_images_exist, stratified_split, save_split_csv
 
 labels = load_labels("data/train_labels.csv")
 print("Lignes labels :", len(labels))
